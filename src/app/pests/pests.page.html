@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="menu-bar" (click)="this.navigator.navigateTo('/home/')">
+    <ion-title>
+      Menu
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img [src]="this.pest.feature" width="100%" height="auto" />
+  <ion-toolbar class="page-title" [innerText]="this.pest.headline"></ion-toolbar>
+  <div class="page-content" [innerHTML]="this.pest.content"></div>
+  <div *ngIf="this.pest.audio" style="padding: 0 36px 21px;">
+    <audio style="width: 100%;" [src]="this.pest.audio" controls>
+      <source [src]="this.pest.audio" [type]="'audio/m4a'">
+      Your device does not support this audio element.
+    </audio>
+  </div>
+</ion-content>

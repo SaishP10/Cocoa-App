@@ -1,0 +1,7 @@
+{
+  "name": "cocoaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

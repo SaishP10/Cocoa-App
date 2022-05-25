@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="menu-bar" (click)="this.navigator.navigateTo('/home/')">
+    <ion-title>
+      Menu
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img [src]="this.welcome.feature" width="100%" height="auto" />
+  <ion-toolbar class="page-title" [innerText]="this.welcome.headline"></ion-toolbar>
+  <div class="page-content" [innerHTML]="this.welcome.content"></div>
+</ion-content>

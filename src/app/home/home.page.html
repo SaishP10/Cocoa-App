@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="menu-bar">
+    <ion-title>
+      Menu
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <div class="navigation-containers" *ngFor="let navLink of navLinks; let i = index">
+      <div *ngIf="!navLink.children" class="navigation-bars" style="position: relative;" (click)="navigateTo(navLink.link)">
+        <img class="nav-bg" src="{{navLink.feature}}" width="100%" height="100%" style="opacity: 0.6; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1;" />
+        <p style="z-index: 2; color: #fff; font-size: 1em;">{{ navLink.title }}</p>
+      </div>
+      <div *ngIf="navLink.children" class="navigation-bars" [class.expanded]="navLink.toggled" style="position: relative;" (click)="toggleNavbar(i)" #tgl>
+        <img class="nav-bg" src="{{navLink.feature}}" width="100%" height="100%" style="opacity: 0.6; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1;" />
+        <p style="z-index: 2; color: #fff; font-size: 1em;">{{navLink.title}}</p>
+      </div>
+      <div class="navigation-children" *ngIf="navLink.children && !navLink.children[0].id" [class.expanded]="navLink.toggled">
+        <div *ngFor="let navChild of navLink.children" class="navigation-bars" style="position: relative;" (click)="navigateTo(navChild.link)">
+          <img class="nav-bg" src="{{navChild.feature}}" width="100%" height="100%" style="opacity: 0.6; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1;" />
+          <p style="z-index: 2; color: #fff; font-size: 1em;">{{ navChild.title }}</p>
+        </div>
+      </div>
+      <div class="navigation-children" *ngIf="navLink.children && navLink.children[0].id" [class.expanded]="navLink.toggled">
+        <div *ngFor="let navChild of navLink.children" class="navigation-bars" style="position: relative;" (click)="openContentPage(navLink.category, navChild.id)">
+          <img class="nav-bg" src="{{navChild.feature}}" width="100%" height="100%" style="opacity: 0.6; position: absolute; top: 0; left: 0; object-fit: cover; z-index: 1;" />
+          <p style="z-index: 2; color: #fff; font-size: 1em;">{{ navChild.title }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
