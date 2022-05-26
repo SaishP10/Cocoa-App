@@ -2127,6 +2127,548 @@ export const database = {
               '<p>Does should be well fed, healthy and parasite free.</p>'+
               '<p>When the kids are born it is a good idea to segregate does and their kids into small pens away from the other goats. Check them daily to make sure they are eating and healthy. You might need to feed any unthrifty kids with extra cows milk or kulau.</p>',
        },
+       {
+          id:4,
+          title:'Goat Diseases',
+          feature: "",
+          link: '',
+          headline:'Goat Diseases',
+          content:'<p>Genetic diseases</p>'+
+              '<p>Genetic diseases are usually a sign of inbreeding. Common symptoms include sterility resulting from testicular atrophy or hermaphroditism, and “spastic” kids that are unable to straighten their legs and stand or walk normally.</p>'+
+              '<p>Microbial diseases</p>'+
+              '<p>Diseases caused by microbes cause death, wasting and laziness and affect reproduction. You should always isolate any sick goats and provide food, water and shelter, and monitor their health daily.</p>'+
+              '<p>Goat diseases like anthrax, rabies and hydatid worms can also infect you and your family. </p>'+
+              '<ul><li>Caprine Retrovirus causes lameness, swollen leg joints, pneumonia, a rough coat and wasting. In kids it can cause encephalitis, paralysis and death, and is usually transmitted through milk. Isolate any affected goats, feed their kids with cows milk, clean the bedding and housing, implement good hygiene and confirm the diagnosis with a blood test as soon as possible.</li>'+
+              '<li>Orf Virus causes blisters and scabs around the mouth, lips and muzzle that cause difficulties in nursing and feeding.</li>'+
+              '<li>Enterotoxaemia is caused by a toxin-producing bacterium present in the gut and in soil. Symptoms include green-yellow diarrhoea with blood, convulsions and death. There is no treatment.</li>'+
+              '<li>Johne’s Disease often follows some form of stress to the herd, and shows as wasting, weakness and death, without diarrhoea. The bacterium is eaten on contaminated leaves or in water and survives for a year or more. Treat the same way as Caprine retrovirus.</li>'+
+              '<li>Goats are also affected by eye diseases such as conjunctivitis and pink eye, and respiratory diseases such as pneumonia. </li>'+
+              '<li>Footrot can occur in wet conditions and can be treated with foot baths or vaccines</li></ul>'+
+              '<p>External parasites</p>'+
+              '<p>Goats are affected by a number of species of microscopic lice and mites that infect the skin and hair follicles around the neck, shoulders, legs and udder, and cause itching, scabs and mange. Ticks Fleas may also spread from dogs to goats. </p>'+
+              '<p>Parasites can be treated with dusting powders containing derris root or rotenone (often found in flea powders), pyrethroid sprays or chewable tablets containing fluralaner. Bedding and housing should be cleaned and sprayed with a synthetic pyrethroid insecticide using a knapsack sprayer.</p>'+
+              '<p>Internal parasites</p>'+
+              '<p>Goats are infected with some of the same worms that infect sheep and cattle, and they are considered the most important diseases – Liver fluke, Barber’s Pole, Tapeworm, Hookworm, stomach worms, Hydatids and lung worms. Gastrointestinal parasites attack the intestinal wall causing blood loss, inflammation and mineral deficiencies such as anaemia, diarrhoea and scours. Pregnant and lactating does, very young or very old goats, or goats in generally poor condition are most vulnerable. Intestinal worms release eggs in their faeces that contaminate food that is consumed by other goats. They can be treated using oral drenches (such as ivermectin) and rotation grazing. </p>'+
+              '<p>Coccidiosis causes similar symptoms of diarrhoea, wasting and death and is more common when goats are crowded together and stressed. Provide slatted floors that prevent faeces and urine from accumulating in bedding, reduce crowding and isolate and treat affected goats .</p>'+
+              '<p>Toxicities</p>'+
+              '<p>Goats can be poisoned by eating poisonous plants, or by metabolic disorders, particularly in pregnant and lactating does. Symptoms include star-gazing, blindness, circling, convulsions and death. </p>'+
+              '<p>Some plants, like mile-a-minute, cause photosensitisation which is an allergic reaction that causes a red skin rash.</p>'+
+              '<p>Common poisonous plants in Bougainville include Nicotiana (brus) and bracken fern. Mouldy food also contains toxins. </p>'+
+              '<p>Pregnancy toxaemia in does indicates poor or inadequate nutrition. Does become lazy, refuse to stand and walk and stop feeding. The best treatment is to find the source of toxicity, remove the poisonous plants and feed vitamin and food supplements containing thiamine (Vitamin B1).</p>'+
+              '<p>If bucks become thin, depressed, grind their teeth, stand with their legs outstretched and have difficulty urinating they may have kidney or bladder stones. Move the goats to a low-protein, high roughage diet and provide plenty of water.</p>',
+       },
     ],
+    cleanvillage: [
+        {
+          id:1,
+          title:'clean village',
+          feature: "/assets/clean-villages/image1.png",
+          link: '',
+          headline:'clean village',
+          content:'<p>Clean villages manage their rubbish well. Many pests like rats and mosquitos, and germs that cause diseases like diarrhoea lurk in rubbish and dirty water. Three key features of clean villages are safe drinking water, proper disposal of rubbish and good village sanitation.</p>'+
+              '<p>The way rubbish is dumped in many villages is probably the way it was always done – just collected it all together and dumped outside the village.  If the burning did not get rid of all the rubbish the remaining pile was usually covered with a thin layer of earth.  The method has been around for centuries, and for many it may still work if all your food and goods are from nature. Goods from the bush are 100% biodegradable, nothing happened when they were dumped – they returned to nature. </p>'+
+              '<p>But the past way for disposing of rubbish does not work anymore and is unsafe because these products cannot be absorbed into nature. Shop-bought products were produced from artificial production cycles and must be disposed of differently. Plastic bags take 1,000 years to degrade, giving off toxins as they decompose.</p>'+
+              '<img src="/assets/clean-villages/image1.png">'+
+              '<img src="/assets/clean-villages/image2.png">'+
+              '<img src="/assets/clean-villages/image3.png">'+
+              '<p>Does should be well fed, healthy and parasite free.</p>'+
+              '<p>When the kids are born it is a good idea to segregate does and their kids into small pens away from the other goats. Check them daily to make sure they are eating and healthy. You might need to feed any unthrifty kids with extra cows milk or kulau.</p>',
+       },
+       {
+          id:2,
+          title:'Water',
+          feature: "/assets/water/image1.png",
+          link: '',
+          headline:'Water',
+          content:'<p>Water is vital for life. Most people need about 20 to 50 litres of clean, safe water a day for drinking, cooking, and simply keeping themselves clean.</p>'+
+              '<p><b>What is unsafe water?</b></p>'+
+              '<p>Water that is polluted. Signs of bad water include</p>'+
+              '<ul><li>Brownish water</li>'+
+              '<li>Cloudy water</li>'+
+              '<li>Particles floating in the water</li>'+
+              '<li>Smelly water</li>'+
+              '<li>Bad tasting water</li>'+
+              '<li>Blue or blue- green colour</li>'+
+              '<li>Unclear water</li></ul>'+
+              '<img src="/assets/water/image1.png">'+
+              '<p>Unclear water: cloudy water is unsafe.</p>'+
+              '<p><b>The dangers of drinking contaminated ( dirty)  water</b></p>'+
+              '<p>Polluted or dirty water is a breeding ground for bacterial, viral and parasitic diseases like typhoid, cholera, encephalitis, poliomyelitis, hepatitis, skin infection and gastrointestinal problems; most of which cause dysentery. </p>'+
+              '<p>Drinking dirty water is a main reason why children get sick with diarrhoea and vomiting. </p>'+
+              '<img src="/assets/water/image2.png">'+
+              '<p>Drinking from a well that is uncovered is unsafe.</p>'+
+              '<img src="/assets/water/image3.png">'+
+              '<p>Drinking from this stream ( dirty) will make these children sick. Never drink water from a natural source that has not been purified, even if the water looks clean. </p>',
+       },
+       {
+          id:3,
+          title:'Waterborne diseases',
+          feature: "/assets/waterborne-disease/image2.png",
+          link: '',
+          headline:'What are water borne diseases?',
+          content: '<img src="/assets/waterborne-disease/image2.png">'+
+              '<p>Water in a well, stream, river or lake may look clean, but it can still be filled with bacteria, viruses, and parasites that can result in waterborne diseases. In the pond or river in the picture above the water is dirty because there are pathogenic micro-organisms in it that causes diseases know as water borne diseases.</p>'+
+              '<img src="/assets/waterborne-disease/image4.png">'+
+              '<p>This is a picture of the germs (bacteria) in dirty water and is unsafe for drinking.</p>'+
+              '<p>Water-borne diseases are any illness caused by drinking water contaminated by human or animal faeces, which contain pathogenic microorganisms. The diseases can spread to the family while bathing, washing, drinking or by eating food that has been cooked or exposed to dirty water. These diseases commonly cause diarrhoea and vomiting and other conditions such as skin, ear, respiratory and eye problems.</p>'+
+              '<p><b>Diarrhoea </b></p>'+
+              '<img src="/assets/waterborne-disease/image3.png">'+
+              '<p>Diarrhoea is a sign of an infection in the intestinal tract and usually is presented as the passing of three or more loose or liquid stools per day. Diarrhoea is caused a variety of bacterial, viral and parasitic organisms. Infection is spread through contaminated food or drinking water, or from person-to-person because of poor hygiene. </p>'+
+              '<p>Diarrhoea can last several days and leave the body without the water and salts necessary for survival. Most people who die from diarrhoea actually die from severe dehydration and fluid loss through liquid stools, vomit, sweat and urine. </p>'+
+              '<p><b>How to avoid getting sick </b></p>'+
+              '<p>Using clean water and washing hands especially after going to the toilet before drinking, cooking, eating, and cleaning are ways to prevent diarrhoea. By storing water safely or collecting water from a safe source and using proper toilets such as a pit toilet can help stop diarrhoea.</p>'+
+              '<p>It is important to wash hands, and dishes used in cooking, as well as keeping the kitchen area clean and free from animals. </p>',
+        },
+        {
+          id:4,
+          title:'Safe water',
+          feature: "/assets/safe-water/image1.jpg",
+          link: '',
+          headline:'Safe water for your family',
+          content: '<p>Possible sources of water that could be made safe to drink if you treat the water include:</p>'+
+              '<ul><li>Rainwater collected on a surface like a roof can be directed into a storage container like clean barrels, rainwater tanks or reservoirs.</li>'+
+              '<li>Streams, rivers, and other moving bodies of water.</li>'+
+              '<li>Ponds and lakes.</li>'+
+              '<li>Natural springs and wells provide groundwater from rain that has seeped into the ground and is stored in underground layers of sand and gravel known as aquifers.</li></ul>'+
+              '<p><b>These are some ways that you can treat water to make it pure to drink.</b></p>'+
+              '<ol><li><p>Boiling. This is a reliable way to <b>purify water.</b></p>'+
+              '<p>Boil water, if you do not have bottled water. Boiling is sufficient to kill pathogenic bacteria, viruses and protozoa (WHO, 2015). If water is cloudy, let it settle and filter it through a clean cloth. Bring water to a rolling boil for at least one minute.</p></li>'+
+              '<li>Iodine or chlorine water purifiers come as solution, tablets or crystals. This is an effective and more convenient method. ...</li>'+
+              '<li>Use a water filter</li></ol>'+
+              '<p><b>Once it is treated, drinking water should be stored in a clean, sterile container.</b></p>'+
+              '<p>Insects that live or breed in water carry and transmit diseases such as dengue fever. Some of these insects, known as vectors, breed in clean, rather than dirty water, and household drinking water containers can serve as breeding grounds. The simple intervention of covering water storage containers can reduce vector breeding and may also reduce dust and faecal contamination of drinking water.</p>'+
+              '<ol><li>Label container as “drinking water” and include storage date.</li>'+
+              '<li>Cover your water storage container</li>'+
+              '<li>Keep stored water in a place with a fairly constant cool temperature (10–20°C)</li>'+
+              '<li>Do not store water containers in direct sunlight.</li></ol>'+
+              '<img src="/assets/safe-water/image1.jpg">'+
+              '<p>Rainwater can be stored for up to 6 months. The more consideration you put into your storage system – using the right materials, preventing algae and mosquitos – the longer your rainwaters shelf-life</p>'+
+              '<p>Utilising rainwater tanks to collect rainwater is probably the most common water collecting method. You can find rainwater tanks at your local store. They are made of plastic and come in different sizes</p>',
+
+        },
+        {
+          id:5,
+          title:'Rubbish',
+          feature: "/assets/rubbish/image1.png",
+          link: '',
+          headline:'Rubbish',
+          content: '<img src="/assets/rubbish/image1.png">'+
+              '<p>Disposing of waste and pollution is an important environmental issue for Bougainville. As families are buying more food from shops as well as buying other consumer goods such as radios and mobile phones, there is more waste like plastic packaging, batteries and used motor vehicle parts.</p>'+
+              '<p>Many villages do not have a system for safely getting rid of rubbish. In many places most of the waste is often dumped in a place near the village or openly burned. These practices have serious health, safety, and environmental consequences. Poorly managed waste serves as a breeding ground for disease vectors, can poison the soil and contribute to global climate change. </p>'+
+              '<p>Some villages may have a system for managing their rubbish. But open dumping and burning can cause serious long term heavy metal and toxin pollution in the water, soil, livestock and plants. Open burning causes pollutant emissions that affect air quality – if the smoke smells bad it probably is! In addition, collecting rubbish from open dump sites can also expose people to serious health risks. Putting waste in rivers, creeks or the ocean contaminates the environment for everyone, especially our children. </p>'+
+              '<img src="/assets/rubbish/image3.png">'+
+              '<img src="/assets/rubbish/image2.png">'+
+              '<p>If you look around your village you will see different types of waste or rubbish:</p>'+
+              '<ul><li>Household/domestic waste including sewage, wastewater, drains and stormwater runoff, medicine, and pesticide bottles</li>'+
+              '<li>Agricultural Wastes including coconut shells, cocoa pod husks, rotten vegetables, manures, fertilisers, and pesticides</li>'+
+              '<li>Industrial Waste created in mines, factories, and workshops</li>'+
+              '<li>Commercial Waste produced in schools, colleges, shops, and offices. ... </li></ul>'+
+              '<img src="/assets/rubbish/image4.png">',
+
+        },
+        {
+          id:6,
+          title:'Plastic',
+          feature: "/assets/plastic/image1.png",
+          link: '',
+          headline:'Plastic',
+          content: '<img src="/assets/plastic/image1.png">'+
+              '<img src="/assets/plastic/image3.png">'+
+              '<p>Many beaches and communal areas collect rubbish which is dangerous to health.</p>'+
+              '<img src="/assets/plastic/image2.png">'+
+              '<p>Plastic bags do not disintegrate and stay in the environment for many years. The Bougainville Bureau for the Environment (BBE) wants help from villages to reduce the amount of single use plastic bags in circulation on Bougainville. They have asked all major businesses and consumers cut down on single use plastic bags. Plastic bags are made from petroleum and designed to last forever. Plastic bags that have only been used once are being thrown away amounting to about 3.5 billion tonnes of waste annually.</p>'+
+              '<p>With only about 5% of single-use plastics being recycled the remainder are not being disposed of in a safe way for the environment. About half are going to landfills, a small number is made into durable goods, and the rest are thrown away in the bush where they often wash out to sea through drains, creeks, and rivers. </p>'+
+              '<p>Plastic waste is found in stomachs of dead fish, turtles and seabirds, and breaks down in the ocean into tiny particles. This is a big problem, not only for the animals and the health of the ocean but also for us because we eat seafood and what they eat, we eat too. Nearly all of us now have plastic particles in our bodies. This is bad for our health.</p>'+
+              '<p>Villages can help by looking for sustainable solutions to plastic pollution and put an end to single-use plastic bags. </p>'+
+              '<ol><li>Bring your own billum or basket to do the shopping and say no thanks to store owners if they give you a plastic bag.</li>'+
+              '<li>Do not throw away the plastic bags but re-use them</li>'+
+              '<li>Store plastic bags in a container so they don’t get blown away </li>'+
+              '<li>Do not burn plastic in rubbish fires. </li>'+
+              '<li>Don’t ever mix or throw away medicines or poisonous waste (oils, paints, paint cans, bulbs, tyres, pesticides) with general waste</li></ol>',
+
+        },
+        {
+          id:7,
+          title:'Heavy Metals',
+          feature: "/assets/heavy-metals/image1.png",
+          link: '',
+          headline:'Heavy metals',
+          content: '<img src="/assets/heavy-metals/image1.png">'+
+              '<img src="/assets/heavy-metals/image3.png">'+
+              '<p>Heavy metals like mercury, arsenic, lead, cadmium, chromium, thallium, and copper are widespread and persistent in the environment. Exposure can affect foetal neurological development, lowered fertility, brain and nerve damage, heart disease and cause death. </p>'+
+              '<p>Heavy metals are released from volcanoes or volcanic rocks, but mostly come from small-scale gold mining, batteries, paints, electrical and electronic equipment, thermometers, blood-pressure gauges, fluorescent and energy-saving lamps, pesticides, fungicides, medicines. These heavy metals are released if waste is burnt or dumped and leached into the soil and water.</p>'+
+              '<img src="/assets/heavy-metals/image2.png">',
+
+        },
+        {
+          id:8,
+          title:'How do you manage rubbish?',
+          feature: "/assets/how-do-you-manage-rubbish/image1.png",
+          link: '',
+          headline:'How do you manage waste in your village?',
+          content: '<p>Burning and burying rubbish: this method involves burying the rubbish and is the most common practice for the disposal of rubbish around the world.</p>'+ 
+              '<img src="/assets/how-do-you-manage-rubbish/image1.png">'+
+              '<img src="/assets/how-do-you-manage-rubbish/image2.png">',
+            
+
+        },
+        {
+          id:9,
+          title:'Safe Waste Management',
+          feature: "/assets/rubbish-management/image1.png",
+          link: '',
+          headline:'What are 7 Rs of safe waste management?',
+          content: '<p>Rethink, Refuse, Reduce, Replace, Recycle, Repair.</p>'+ 
+              '<img src="/assets/rubbish-management/image1.png">'+
+              '<p>The 7th R is Rot, and you will read more about this when we get to Compost.</p>',
+        },
+        {
+          id:10,
+          title:'Recycling',
+          feature: "/assets/recycling/image1.png",
+          link: '',
+          headline:'Recycling',
+          content: '<p>This requires you and your village selecting the right containers to store the different types of rubbish such as plastic, paper, glass, metal, batteries and light bulbs, electronics, compost, etc. Most rubbish is recyclable when you know how to do it and know what materials can be recycled. </p>'+ 
+              '<img src="/assets/recycling/image1.png"><br>'+
+              '<img src="/assets/recycling/image2.png"><br>'+
+              '<img src="/assets/recycling/image3.png"><br>'+
+              '<img src="/assets/recycling/image4.png"><br>'+
+              '<img src="/assets/recycling/image5.png"><br>'+
+              '<img src="/assets/recycling/image6.png"><br>'+
+              '<img src="/assets/recycling/image7.png">',
+
+        },
+        {
+          id:11,
+          title:'Composting',
+          feature: "/assets/composting/image1.png",
+          link: '',
+          headline:'Composting',
+          content: '<p>Compost is organic material that can be added to soil to help plants grow. Food scraps and yard waste which is currently thrown away could be composted instead.  Composting turns your food waste and plants into fuel for your garden. Composting is always good for plants and gardens and helps the garden to produce good quality food as well as help the planet.</p>'+ 
+              '<p>Composting does not cost a lot of money and works exactly the same way as cocoa bean fermentation, but takes a little longer. Composts need a balance of nitrogen and carbon. Soft, green plant wastes and animal manures are nitrogen-rich, while dry, brown woody materials are carbon-rich.</p>'+
+              '<p>How to Compost</p>'+
+              '<img src="/assets/composting/image1.png"><br>'+
+              '<ol><li>Build a compost heap about the size of a cocoa fermenting box.</li>'+
+              '<li>Start with a layer of carbon-rich materials at the bottom so it helps aerate your compost.<br><img src="/assets/composting/image2.jpg"></li>'+
+              '<li>Add a mix of green and brown wastes and cover with banana leaves, palm fronds or taro leaves</li>'+
+              '<li>Remove the cover, keep adding and covering until you fill your box. </li>'+
+              '<li>Over the next few weeks the heap will heat up. When it cools down it is ready.</li>'+
+              '<li>Mix it with a fork and shred as finely as you can then spread on your garden. The smaller the pieces are, the faster your plants get their nutrients.</li></ol>',
+              
+
+        },
+        {
+          id:12,
+          title:'Sanitation',
+          feature: "/assets/sanitation/image1.jpg",
+          link: '',
+          headline:'Sanitation',
+          content: '<img src="/assets/sanitation/image1.png"><br>'+
+              '<p>What is sanitation and why does it matter?</p>'+ 
+              '<p>A common cause of sickness in children and adults is when they touch food and surfaces that are contaminated with faeces (human poo). Germs in poo can be transferred to food when hands are not washed after going to the toilet or after defecating in the bush/river. It can also be transferred if the kitchen area is shared with animals as their poo can also cause sickness.</p>'+
+              '<img src="/assets/sanitation/image3.png"><br>'+
+              '<img src="/assets/sanitation/image2.png"><br>'+
+              '<p>What are Germs?</p>'+
+              '<p><b>Viruses:</b></p>'+
+              '<img src="/assets/sanitation/image5.png"><br>'+
+              '<p><b>Bacteria:</b></p>'+
+              '<img src="/assets/sanitation/image4.png"><br>'+
+              '<p>Germs are microscopic viruses, bacteria, fungi and parasites. They are living organisms that are found everywhere - in the marketplace, on tables, in water and in the garden soil. They are found in the cooking area and on the pots and pans if they are not washed properly.  They live on our bodies and even inside our bodies. </p>'+
+              '<p>Most of these microbes do not cause any problems as our bodies have adapted to them or they are part of our biology. But there are other kinds of microbes – germs - that can make us very sick if they get inside our bodies. Germs infect any organ in the body. Common colds and respiratory infections are caused by viruses. Viruses can also cause upset tummies and diarrhoea. Bacteria can make you sick in any part of the body but most commonly in the digestive tract causing diarrhoea. Fungi cause skin and lung infections.</p>'+
+              '<p>Germs live outside of the human body, on surfaces like tables and seats, in dust, soil, food and water. We pass the germs around on our hands, contaminated food and dirty water. Malaria and Dengue Fever are caused by parasites transmitted to human by mosquito bites.</p>'+
+              '<p>How Germs Spread</p>'+
+              '<p>Washing hands can keep you healthy and prevent the spread of respiratory and diarrhoeal infections from one person to the next. Germs can spread from other people or surfaces when you:</p>'+
+              '<ul><li>Touch your eyes, nose, and mouth with unwashed hands</li>'+
+              '<li>Prepare or eat food and drinks with unwashed hands</li>'+
+              '<li>Touch a contaminated surface or objects</li>'+
+              '<li>Blow your nose, cough, or sneeze into hands and then touch other people’s hands or common objects</li></ul>'+
+              '<p>How to wash your hands with soap</p>'+
+              '<p>Washing your hands is easy, and it’s one of the most effective ways to prevent the spread of germs. Clean hands can stop germs from spreading from one person to another and throughout an entire community—from your village to church and the marketplace. </p>'+
+              '<p>Follow these five steps every time.</p>'+
+              '<ol><li><b>Wet</b> your hands with clean, running water and apply soap.</li>'+
+              '<li><b>Lather</b> your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails.</li>'+
+              '<li><b>Scrub</b> your hands for at least 20 seconds.</li>'+
+              '<li><b>Rinse</b> your hands well under clean water.</li>'+
+              '<li><b>Dry</b> your hands using a clean towel or air dry them.</li></ol>',
+        },
+        {
+          id:13,
+          title:'Toilets',
+          feature: "/assets/toilets/image1.png",
+          link: '',
+          headline:'Toilets',
+          content:'<p>What is open defecation?</p>'+
+              '<p>Another word for defecation is poo and open defecation refers to pooing out in the open.       (fields, forest, bushes, streams, rivers, the sea, on beaches). Pooing in the open can spread infectious diseases, cause diarrhoea (especially in children), and have adverse health outcomes in pregnancy, malnutrition, as well as increased vulnerability to violence — particularly for women and girls.</p>'+ 
+              '<p>Alongside sanitation, access to basic handwashing facilities is essential for the prevention of infectious diseases and malnutrition. Often access to basic hygiene and access to sanitation are linked.</p>'+ 
+              '<p>What is the problem with pooing in the field or river?</p>'+
+              '<p>The biggest worry with pooing in the field or in the river is that human poo (faeces) can spread disease. It also can pollute water sources and infect native plants. Diseases such as Giardia, salmonella, E. coli, and even hepatitis can also be passed from humans to animals via discarded poop.  Peeing near a stream or river or onto plants is also not good as the salt in urine can harm them. </p>'+ 
+              '<p>Diseases such as cholera and serious conditions such as blinding trachoma can be transmitted through water, hands, soil and food contaminated by human faeces, spread because water sources are contaminated with human poo and where toilets and good hygiene habits are absent or inadequate.</p>'+ 
+              '<p>Eating or touching contaminated food or poo can cause you and your children to get an infection.</p>'+
+              '<p>Infections include:- cholera, typhoid, hepatitis, polio, cryptosporidiosis, ascariasis, and schistosomiasis are some examples. Parasites and viruses like hepatitis A and hepatitis E are also transmitted via poo. You can catch these infections when you come into contact with an infected person either by touching with unwashed hands or even kissing and hugging.</p>'+ 
+              '<p>Does open defecation or inadequate toilets effect the health of your children?</p>'+
+              '<p>Washing hands can keep you healthy and prevent the s</p>'+ 
+              '<ul><li><b>Wet</b> your hands with clean, running water and apply soap.</li>'+
+              '<li>When they touch poo of an infected person or touch baby poo when changing their pants or nappy.</li>'+
+              '<li>By eating with their hands after they have touched something that has germs on or in it.  The most common way your child will get sick is when they touch their mouth with a dirty (contaminated) hand.</li>'+
+              '<li>By eating or drinking contaminated food or water<br><img src="/assets/toilets/image1.jpg"></li></ul>'+
+              '<p>What are the ways people urinate and poo?</p>'+ 
+              '<p>The safe disposal of human excreta (poo) is very important for your and your children’s health. While some places may have On-site toilets that treat human waste at the village level many current sanitation systems need improvement and require further development.</p>'+
+              '<p>What is an improved sanitation facility?</p>'+ 
+              '<p>Many villages do not have access to an improved sanitation facility. This type of facility separates human poo from human contact. Examples are flush/pour/ flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit (VIP) latrine, pit latrine with slab, and composting toilet.</p>'+
+              '<p>Toilets can be simple such as a protected pit latrine but to be effective, they must be correctly constructed and properly looked after. </p>'+
+              '<img src="/assets/toilets/image2.png">'+
+              '<p>What is a pit latrine?</p>'+ 
+              '<p>A pit latrine generally consists of three major parts: a hole in the ground, a concrete slab or floor with a small hole, and a shelter. The shelter is also called an outhouse. The pit is typically at least three meters (10 feet) deep and one meter (3.2 feet) across.</p>'+
+              '<p>What are the risks with a pit latrine?</p>'+ 
+              '<p><b>Pit latrines </b>generally lack a physical barrier, such as concrete, between stored excreta and soil and/or groundwater . This means that contaminants from pit-latrine excreta and any chemicals used have the potential to leach into groundwater, thereby threatening human health through well-water contamination. </p>'+
+              '<p>How to build a pit toilet</p>'+ 
+              '<p>Below are two ways that explain how to build a pit toilet:</p>'+
+              '<ol><li><a href="https://www.youtube.com/watch?v=_-UJZw-SJCc">https://www.youtube.com/watch?v=_-UJZw-SJCc</a></li>'+
+              '<li>Global Water Initiative guide (PDF: <a href="https://drive.google.com/file/d/1nDSucg26Og2epip9s2rbpJCPnPiHZs44/view?usp=sharing ">https://drive.google.com/file/d/1nDSucg26Og2epip9s2rbpJCPnPiHZs44/view?usp=sharing </a>)</li></ol>',
+        },
+        {
+          id:14,
+          title:'Food safety',
+          feature: "",
+          link: '',
+          headline:'Food safety',
+          content:'<p>Most foods are best eaten fresh. Food that is not fresh dries out or rots and becomes inedible. The microbes that cause your food to rot are the same as those that make compost, but they make your food poisonous. </p>'+
+              '<p>The following are some tips from the USA Centres for Disease Control to prevent food contamination:</p>'+ 
+              '<p><b>Be careful when buying food:</b></p>'+ 
+              '<ul><li>When at the store, pick up foods that can go bad (such as meat, eggs, and milk) at the very end of your shopping trip. This helps them stay cool.</li>'+
+              '<li>Take food home right away so that it does not spoil in the hot sun.</li>'+
+              '<li>Stay away from raw or unpasteurized milk.</li>'+
+              '<li>Eggs, meat, seafood, and poultry are most likely to have bacteria. Dont let their juices drip on other food.</li></ul>'+
+              '<ul><li><b>Store food the right way:</b><br>'+
+              '<ul><li>Store eggs, raw meat, poultry, and seafood in the refrigerator if you have one</li>'+
+              '<li>A refrigerator should be set between 32°F and 40°F.</li>'+
+              '<li>Regularly clean and disinfect your refrigerator</li>'+
+              '<li>Use containers to prevent contaminating other foods or kitchen surfaces. Dont store food uncovered in the refrigerator or freezer</li>'+
+              '</ul></li>'+
+              '<li><b>Use special precautions when preparing and cooking food:</b><br>'+
+              '<ul><li>Wash your hands and clean and disinfect kitchen surfaces before, during, and after handling, cooking, and serving food.</li>'+
+              '<li>Wash raw fruits and vegetables before eating them.</li>'+
+              '</ul></li>'+
+              '<li><b>Cool and promptly store leftovers after food has been served:</b><br>'+
+              '<ul><li>Because harmful bacteria grow at room temperature, keep hot food hot and keep cold food cold. This is especially important during picnics and buffets.</li>'+
+              '<li>Do not leave foods that can go bad out for more than 2 hours.</li>'+
+              '<li>Promptly refrigerate or freeze leftovers in shallow containers or wrapped tightly in bags.</li>'+
+              '</ul></li></ul>',
+        },
+    ],
+    maternalchildhealth: [
+        {
+          id:1,
+          title:'Maternal and child health',
+          feature: "/assets/maternal-child-health/image1.jpg",
+          link: '',
+          headline:'Maternal and child health',
+          content:'<p>It is essential that women who are planning to get pregnant or that are pregnant eat nutritious food, drink clean water, be safe and wash hands after they go to the toilet, after touching animals and before cooking.</p>'+ 
+              '<p><b>Why?</b></p>'+ 
+              '<p>Hunger and malnutrition are associated with up to 80 percent of maternal deaths</p>'+
+              '<p>Many pregnant women work hard and if they are not eating healthy and nutritious food, they can become weak due to poor health. Poor health of the mother during pregnancy can cause health problems for the baby. Having lots of babies can also impact on the health of the mother and the baby. Growing healthy foods in the household garden is one way to make sure the expecting mother is eating well.</p>'+
+              '<p>When the mother is healthy her baby has the best chance to be born healthy.</p>'+
+              '<img src="/assets/maternal-child-health/image1.jpg">',
+        },
+        {
+          id:2,
+          title:'Nutrition During Pregnancy',
+          feature: "/assets/nutrition-during-pregnancy/image1.png",
+          link: '',
+          headline:'Nutrition During Pregnancy',
+          content:'<p>When a woman knows she is pregnant it is important that she <b>visit a health centre</b> to make sure she gets support during her pregnancy. The health clinic or hospital can provide important information to the parents, to help them give their baby a good start in life. There are essential nutrients that a pregnant woman needs and must be added to her food.</p>'+ 
+              '<p><b>Folic Acid</b></p>'+ 
+              '<p><b>Iron</b></p>'+ 
+              '<p><b>Calcium</b></p>'+ 
+              '<p><b>Protein</b></p>'+ 
+              '<p><b>Other Vitamins and minerals</b></p>'+ 
+              '<p>These nutrients are vital for a healthy pregnancy. The health care staff at the clinic or hospital will be able to tell the woman where to get these nutrients if they are available in Bougainville. An expecting mother needs to eat the following foods to make sure her baby is born healthy</p>'+
+              '<p><b>5.1.1 Healthy foods to eat when pregnant</b></p>'+ 
+              '<p><b>EGGS</b></p>'+ 
+              '<p>Eggs contain many nutrients that the pregnant woman’s body needs. Eggs are a good source of protein and contain lots of vitamins and minerals including choline which is good for the baby’s overall growth and development and helps to prevent abnormalities such as neural tube defects. If you are pregnant you should try to eat at least one <b>cooked</b> egg a day. <b>Do not</b> eat raw eggs during pregnancy.</p>'+ 
+              '<img src="/assets/nutrition-during-pregnancy/image1.png">'+
+              '<p><b>BEANS</b></p>'+ 
+              '<p>Kidney beans, black beans, lentils, chickpeas all contain fibre. Beans and lentils are a rich source of protein. If they are not grown you may be able to buy them in a tin.</p>'+ 
+              '<img src="/assets/nutrition-during-pregnancy/image3.png">'+
+              '<p><b>FRUIT AND VEGETABLES</b></p>'+ 
+              '<p>Eating colourful fruits and vegetables provides a woman and her baby with a variety of nutrients. These nutrients are necessary for the optimum growth of the baby. Try to avoid unripe papaya when pregnant.</p>'+ 
+              '<img src="/assets/nutrition-during-pregnancy/image1.png">'+
+              '<p><b>FISH</b></p>'+ 
+              '<p>Fish is full of healthy omega-3 fatty acids and vitamins such as D and B2 (riboflavin). It is also rich in calcium and phosphorus and a great source of minerals, such as iron, zinc, iodine, magnesium, and potassium.  You should however avoid raw shellfish and fish with high levels of mercury such as sword-fish and shark.</p>'+ 
+              '<img src="/assets/nutrition-during-pregnancy/image5.jpg">'+
+              '<p><b>DARK GREEN LEAFY VEGETABLES</b></p>'+ 
+              '<p>These vegetables are rich in iron, folate and other essential nutrients. Aibika, Aupa, Spinach, kale, Swiss chard, and other green leafy vegetables are loaded with vitamins and nutrients vital for good mother and baby health</p>'+ 
+              '<img src="/assets/nutrition-during-pregnancy/image2.png">'+
+              '<p><b>WATER</b></p>'+ 
+              '<p>Drink plenty of water especially on hot days and after working in the fields or exercise. If you are concerned about the quality of the water, be sure to boil it before drinking. Pregnant women should only drink small amounts of coffee and cola due to the caffeine and sugar they contain</p>'+ 
+              '<p><b>5.1.2 Foods to avoid when pregnant</b></p>'+ 
+              '<p>·       Raw or partially cooked eggs</p>'+
+              '<p>·       Raw or undercooked meat - Uncooked seafood and rare or undercooked beef or poultry should be avoided during pregnancy because of the risk of contamination with coliform bacteria, toxoplasmosis, and salmonella.</p>'+
+              '<p>·       Some types of fish. During pregnancy, sea fishes and fishes with high-mercury like swordfish etc should be avoided.</p>'+
+              '<p>·       Raw shellfish.</p>'+
+               '<p><b>For more information see section on ‘healthy food for the family’</b></p>',
+        },
+        {
+          id:3,
+          title:'Child Nutrition',
+          feature: "/assets/child-nutrition/image1.png",
+          link: '',
+          headline:'Child Nutrition',
+          content:'<p>The health of your baby starts from the moment you are pregnant.</p>'+ 
+              '<p>1.     Eat healthy foods</p>'+ 
+              '<p>2.     Care for yourself and be mindful of the work you are doing and how it might impact on your health. </p>'+ 
+              '<p>An unhealthy diet, low in nutrients, can cause health problems during pregnancy for the mother and can lead to the baby arriving early. Early babies with a low birth weight (<2500g) are more likely to get sick  and have poorer development outcomes.</p>'+ 
+              '<p>Having a healthy baby requires <b>nutritious food, family love and care as well as a safe home environment.</b></p>'+ 
+              '<p>Remember ONLY feed your baby breast milk in the first 6 months – this gives your baby a good start in life. </p>'+ 
+              '<p>Expectant mothers should visit the clinic when they are pregnant and after the baby is born. Health care professionals can provide support and advice to mothers and babies</p>'+
+              '<p>A safe home environment means that the household has access to clean water and sanitation and practice hand washing before cooking and after going to the toilet and touching animals.</p>'+ 
+              '<p><b>Children from 6 months of age need healthy food</b> to prevent sickness and for healthy development of their bodies and brains.</p>'+ 
+              '<p>They should eat</p>'+ 
+              '<p>·       fresh vegetables and fruits</p>'+
+              '<p>·       dairy or dairy alternatives such as milk, soy milk</p>'+
+              '<p>·       whole-grain cereals and bread.</p>'+
+              '<p>·       fish or other protein sources such as chicken, eggs</p>'+
+              '<p><b>Children should not be given fizzy drinks as they have a lot of sugar in them which is bad for children. Sweets/ lollies and sweet biscuits should also be avoided.</b></p>'+
+              '<p><b>Why healthy food is important for your child</b></p>'+
+              '<p>Not enough food and/or nutrients (malnutrition) in the first 2 years of  a child’s life can cause life-long health issues. A malnourished child is more likely to get sick and have poorer physical growth and development. It can affect their weight and height. Children who have a low height for their age are considered stunted.</p>'+
+              '<p>Children who are stunted are at risk of poorer brain development, which means they will not learn very well and not do well at school</p>'+
+              '<p>If your child is not getting enough nutritious food, they may have less energy and not be interested in going to school or doing schoolwork, which could impact their ability to get jobs in the future.</p>'+
+              '<p>Stunted children are also at greater risk of obesity and other chronic diseases as adults.</p>'+
+              '<p><b>Signs your child may have a poor diet</b></p>'+ 
+              '<p>·       is skinny or underweigh</p>'+
+              '<p>·       overweight or fat</p>'+
+              '<p>·       constipated or has changes in their bowel habits</p>'+
+              '<p>·       reduced appetite</p>'+
+              '<p>·       is pale or not very active</p>'+
+              '<p>·       poor concentration</p>'+
+              '<p>·       has tooth decay</p>'+
+              '<p>·       has poor physical growth</p>'+
+              '<p>·       gets sick often</p>'+
+              '<p><b>What your child should eat every day</b></p>'+ 
+              '<p>·       At least 5 portions of a variety of fruit and vegetables every day</p>'+
+              '<p>·       meals based on starchy foods, such as potatoes, bread, and rice (choose wholegrain varieties when possible)</p>'+
+              '<p>·       Some milk and dairy products (choose low-fat options where you can)</p>'+
+              '<img src="/assets/child-nutrition/image1.png"><br>'+
+              '<img src="/assets/child-nutrition/image2.png">'+
+              '<p><b>See section on Breastfeeding and food for young children for more information</b></p>'
+
+        },
+        {
+          id:4,
+          title:'Childhood Sickness',
+          feature: "",
+          link: '',
+          headline:'Childhood Sickness',
+          content:'<p><b>What causes sickness?</b></p>'+ 
+              '<p>People have different ways of understanding sickness. For example</p>'+ 
+              '<p>A baby gets diarrhoea. But why?</p>'+ 
+              '<p>People in the village may say-</p>'+ 
+              '<p>It’s because the parents did something wrong, or because they made a god or spirit angry</p>'+ 
+              '<p>A doctor may say</p>'+ 
+              '<p>Because the child has an infection</p>'+ 
+              '<p>A public health officer may say</p>'+ 
+              '<p>Because the village does not have a good water system or use toilets</p>'+ 
+              '<p>A social reformer may say</p>'+ 
+              '<p>The unhealthy conditions that led to frequent diarrhea are caused by the unfair way land and wealth is given out</p>'+ 
+              '<p>A teacher may say</p>'+ 
+              '<p>The lack of education is to blame.</p>'+ 
+              '<p>People understand the cause of illness in terms of their own experience. - <b>Sickness is often caused by a combination of things.</b></p>'+ 
+              '<p><b>Types of sickness</b></p>'+
+              '<p><b>Infectious diseases</b>are those that spread from one person to another.</p>'+ 
+              '<p><b>Non-infectious diseases- </b>do not spread from person to person. They have other causes But, they are never caused by germs, bacteria or other living organisms that attack the body. You or your family should not take an antibiotic if you have a non-infectious disease as they do not help.</p>',
+        },
+        {
+          id:5,
+          title:'Diarrhoeal diseases',
+          feature: "/assets/diarrhoeal-diseases/image1.png",
+          link: '',
+          headline:'Diarrhoeal diseases',
+          content:'<p>Diarrhoea is a leading cause of death in children under 5 years. Unclean food and bad water are the main causes of diarrhea, so it is important to make sure that food is stored, prepared and cooked in a clean environment and that clean water is available. Always wash your hands after going to the toilet, touching animals and before cooking. Protect the wells and springs from dirt and animals by putting fences or walls around them or storing the water in a clean container with a cover. Water is made clean for drinking by boiling or filtering the water. This is especially important for babies and young children. See the section on clean water for more information about making the home safe.</p>'+ 
+              '<p>Diarrhoea is the passing of watery stools more often than usual. Diarrhea causes the body to become dehydrated- the loss of water to the body.</p>'+ 
+              '<p><b>Signs of dehydration</b></p>'+
+              '<p><b>Severe dehydration (at least two of the following signs):</b></p>'+
+              '<p>·       lethargy/unconsciousness</p>'+
+              '<p>·       sunken eyes</p>'+
+              '<p>·       unable to drink or drink poorly</p>'+
+              '<p><b>Some dehydration (two or more of the following signs):</b></p>'+
+              '<p>·       restlessness, irritability</p>'+
+              '<p>·       sunken eyes</p>'+
+              '<p>·       drinks eagerly, thirsty</p>'+
+              '<p><b>What to do if your child has diarrhoea</b></p>'+
+              '<p>Give the child as much fluid as they will take. Give plenty of boiled clean water. If possible, add some sugar or cereal and salt to the water. You may also be able to access Oral Rehydration Salt Sachets from your local hospital or health centre (see image below).</p>'+
+              '<img src="/assets/diarrhoeal-diseases/image2.png">'+
+              '<p> Oral Rehydration Salt Sachet</p>'+
+              '<p>If the child is breastfed continue to breastfeed more often than usual. This is more important than medicine. If the child is lethargic and unable to drink, go immediately to a health centre. Check if there is blood in the stool and if so, go to a health centre for treatment</p>'+
+              '<p><b>Recipe for homemade salt sugar solution</b></p>'+
+              '<ol><li>Wash your hands with soap and water before preparing the solution.</li>'+
+              '<li>In a clean container mix: One litre of safe water. Half a small spoon of salt,  Six teaspoons of sugar.</li>'+
+              '<li>Stir the salt and the sugar until they dissolve in the water</li>'+
+              '<li>Give the child frequent sips from a cup or a spoon until they are o longer thirsty. (Spoonfuls are especially appropriate for young children.)</li>'+
+              '<li>If the child vomits, wait ten minutes before giving more.</li>'+
+              '<li>You can add half a cup of orange juice or a mashed banana to the solution to make it taste better for children over 6 months.</li>'+
+              '<li>If ORS is still needed after 24 hours, make a fresh solution.</li>'+
+              '<li>If the child does not improve or shows signs of severe dehydration appear, take the child to a health clinic</li></ol>'+
+              '<img src="/assets/diarrhoeal-diseases/image1.png">',
+        },
+         {
+          id:6,
+          title:'Pneumonia',
+          feature: "",
+          link: '',
+          headline:'Pneumonia',
+          content:'<p>Pneumonia is an acute infection of the lungs.</p>'+ 
+              '<p><b>Signs of Pneumonia</b></p>'+
+              '<p>·       Sudden chills and then high fever</p>'+
+              '<p>·       Rapid shallow breathing with little grunts or sometimes wheezing</p>'+
+              '<p>·       Fever ( but sometimes newborn babies and very old and weak persons with severe pneumonia may have little or no fever)</p>'+
+              '<p>·       Cough- often with yellowish or greenish rust coloured or slightly bloody mucus</p>'+
+              '<p>·       Chest pain</p>'+
+              '<p>·       The person looks ill</p>'+
+              '<p>·       Cold sores often appear on the face or lips</p>'+
+              '<p>·       restlessness, irritability</p>'+
+              '<p>If you child is very sick with fast, shallow breathing they probably have pneumonia</p>'+
+              '<p><b>Treatment of Pneumonia</b></p>'+
+              '<p>You need to take your baby or child to the health centre immediately</p>'+
+              '<p>The doctor or nurse will recommend treatment with antibiotics.</p>'+
+              '<p>Give plenty of liquids</p>',
+        },
+        {
+          id:7,
+          title:'Times when the right use of water may be better than medicine',
+          feature: "",
+          link: '',
+          headline:'Ways water can be used for prevention and treatment of mild conditions.',
+          content:'<p><b>*** If ever concerned or illness is severe go straight to a health centre</b></p>'+
+              '<p><b>PREVENTION[1]</b></p>'+
+              '<p>1.     diarrhoea, worms, or gut infections</p>'+ 
+              '<p><u>Treatment</u>: Wash hands and give boiled or filter drinking water</p>'+
+              '<p>2.     Skin Infections </p>'+
+              '<p><u>Treatment</u>: Bathe often  using soap made locally from coconut oil</p>'+
+              '<p>3.     Wounds becoming infected; tetanus</p>'+ 
+              '<p><u>Treatment</u>: Wash wound well with soap and clean water</p>'+
+              '<p><b>TREATMENT</b></p>'+
+              '<p>To Treat</p>'+
+              '<p>1.     Diarrhea and dehydration – <b>drink plenty of liquids such as clean water and coconut water</b></p>'+
+              '<p>2.     Illnesses with fever- <b>drink plenty of liquids such as coconut water</b></p>'+
+              '<p>3.     High fever-<b>remove clothing and soak body with water</b></p>'+
+              '<p>4.     Minor urinary infections-<b>drink plenty of water</b></p>'+
+              '<p>5.     Cough, asthma, bronchitis, pneumonia- <b>drink a lot of clean water and breathe hot water vapor to loosen mucus.</b></p>'+
+              '<p>6.     Sores, ringworm of skin or head, cradle cap, pimples – <b>scrub with soap and clean water</b></p>'+
+              '<p>7.     Infected wounds, abscesses, boils- <b>hot soaks or compresses</b></p>'+
+              '<p>A compress is a pad of lint or other absorbent material pressed on to part of the body to relieve inflammation or stop bleeding.</p>'+
+              '<p>8.     Stiff sore muscles and joints – <b>hot compresses</p>'+
+              '<p>9.     Strains and sprains-</p>'+
+              '<p>10.    Itching burning or weeping irritations of the skin- <b>Cold compresses. first day soak in cold water then use hot soaks.</b></p>'+
+              '<p>11.  Minor burns- <b>hold in cold water at once</b></p>'+
+              '<p>12.  Sore throat or tonsillitis- <b>gargle with warm salt water</b></p>'+
+              '<p>13.  Acid, lye, dirt or irritating substance in the eye – <b>flood eye with cool water at once and continue for 15 to 30 minutes.</b></p>'+
+              '<p>14.  Stuffed up nose - <b>sniff salt water</b></p>'+
+              '<p>15.  Constipation- <b>hard poo -drink lots of water.</b></p>'+
+              '<p>16.  Cold sores or fever blisters- <b>hold ice on blister for several minutes at first sign.</b></p>',
+          
+              
+        },
+    ],
+
   }
 };

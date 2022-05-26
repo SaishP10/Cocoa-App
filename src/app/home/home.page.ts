@@ -88,6 +88,20 @@ export class HomePage implements ViewDidEnter {
       link: '',
       toggled: false
     },
+    {
+      title: 'Clean Village',
+      feature: '/assets/clean-villages/image1.png',
+      category: 'cleanvillage',
+      link: '',
+      toggled: false
+    },
+     {
+      title: 'Maternal and child health',
+      feature: '/assets/maternal-child-health/image1.jpg',
+      category: 'maternalchildhealth',
+      link: '',
+      toggled: false
+    },
     
     
   ];
@@ -103,6 +117,8 @@ export class HomePage implements ViewDidEnter {
     this.navLinks[8].children = database.getCategory(this.navLinks[8].category);
     this.navLinks[9].children = database.getCategory(this.navLinks[9].category);
     this.navLinks[10].children = database.getCategory(this.navLinks[10].category);
+    this.navLinks[11].children = database.getCategory(this.navLinks[11].category);
+    this.navLinks[12].children = database.getCategory(this.navLinks[12].category);
   }
 
   ionViewDidEnter() {
